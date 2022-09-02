@@ -1,0 +1,2 @@
+# ideatips
+personnal idea tips
