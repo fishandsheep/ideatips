@@ -1,5 +1,10 @@
 ### IDEA TIPS
 
+
+### code Post fix completion
+自定义
+
+
 ### setting
 1. match case 大小写敏感
 2. reopen project
@@ -7,10 +12,7 @@
 
 ### 快捷键
     `double shift ： search everywhere`
-
-### code Post fix completion
-自定义
-
+ 
 ### Debug  断点配置面板 `ctrl + shift + f8`
 1. 普通断点
 2. 详细断点
@@ -27,6 +29,6 @@
 
 
 ### 插件
-1. presentation assistant / Key Promoter X
-2. Free Mybatis Plugin 代码 跳转 xml
+1. presentation assistant
+2. Free Mybatis Plugin 代码 <=> xml
 
