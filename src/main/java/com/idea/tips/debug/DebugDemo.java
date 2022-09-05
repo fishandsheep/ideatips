@@ -17,30 +17,30 @@ public class DebugDemo {
 
     static {
         for (int i = 0; i < 10; i++) {
-            Student student = new Student(i, "zdx" + i, 18);
+            Student student = new Student(i, "zdx" + i, i + 10);
             students.add(student);
         }
     }
 
     public static void main(String[] args) {
-        //普通断点 + 普通方法断点 + 条件判断
-        checkData(students);
-
-        //接口方法断点
-        service.test();
-
-        //异常断点
-        excetionTest();
-
-        //字段断点
-        Student student = new Student();
-        student.getId();
-
-        //实时计算变量值 + 赋值
-        evaluate(students);
+//        //普通断点 + 普通方法断点 + 条件判断
+//        checkData(students);
+//
+//        //接口方法断点
+//        service.test();
+//
+//        //异常断点
+//        excetionTest();
+//
+//        //字段断点
+//        Student student = new Student();
+//        student.getId();
+//
+//        //实时计算变量值 + 赋值
+//        evaluate(students);
 
         // stream debug
-        List<Integer> collect = students.stream().map(t -> t.getId()).filter(t -> t != 5).collect(Collectors.toList());
+        List<Integer> collect = students.stream().map(t -> t.getAge() + 1).filter(t -> t % 2 == 0).collect(Collectors.toList());
 
 
     }
