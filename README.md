@@ -1,9 +1,9 @@
 ### IDEA TIPS
 
 
-### code Post fix completion
-自定义
-
+#### 扩展
+1. [本项目代码](https://github.com/fishandsheep/ideatips)
+2. [postfix completion for ipython](https://github.com/ipython/ipython/issues/13587)  听说点赞越多越早合并到主干
 
 ### setting
 1. match case 大小写敏感
@@ -12,6 +12,9 @@
 
 ### 快捷键
     `double shift ： search everywhere`
+    
+### code Post fix completion
+    自定义 关键字触发
  
 ### Debug  断点配置面板 `ctrl + shift + f8`
 1. 普通断点
@@ -22,11 +25,9 @@
 6. 条件断点
 7. jdk8 stream 调试
 
-
 ### 版本管理工具结合使用 `git / svn`
 1. changelist   set active changelist
 2. shelve change
-
 
 ### 插件
 1. presentation assistant
